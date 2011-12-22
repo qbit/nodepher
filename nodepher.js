@@ -1,8 +1,7 @@
 var fs = require( 'fs' );
 var net = require( 'net' );
 
-var gopher = require( './gopher.js' ).gopher;
-var nodepher = new gopher();
+var gopher = require( './gopher.js' );
 
 var server = net.createServer( function( c ) {
 	console.log( 'connected' );
@@ -11,7 +10,7 @@ var server = net.createServer( function( c ) {
 	});
 
 	c.on( 'data', function( d ) {
-		nodepher.parse( c, d );
+		gopher.parse( c, d );
 	});
 });
 
