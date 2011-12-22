@@ -1,0 +1,16 @@
+{
+  "author": "Aaron Bieber <qbit@deftly.net> (http://www.deftly.net)",
+  "name": "nodepher",
+  "description": "Gopher implementation in node.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/qbit/nodepher",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qbit/nodepher.git"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
